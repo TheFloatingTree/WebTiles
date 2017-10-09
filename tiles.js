@@ -21,13 +21,13 @@ function Tile(row) {
     this.show = function() {
 
         if (this.a === 0) {
-            fill(225);
+            fill(255);
         }
         if (this.a === 1) {
             fill(25);
         }
         if (this.a === 2) {
-            fill(225,0,0);
+            fill(255,0,0);
         }
         
         strokeWeight(2.5);
