@@ -1,5 +1,5 @@
-const width = 400;
-const height = 800;
+const width = windowWidth;
+const height = windowHeight;
 const scl = 20;
 
 var tile = [];
