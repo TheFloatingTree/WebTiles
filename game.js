@@ -1,5 +1,5 @@
-const width = 200;
-const height =400;
+const width = 400;
+const height = 800;
 const scl = 20;
 
 var tile = [];
