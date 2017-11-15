@@ -1,5 +1,3 @@
-const width = windowWidth;
-const height = windowHeight;
 const scl = 20;
 
 var tile = [];
@@ -10,6 +8,9 @@ var score = 0;
 var speed = 2;
 
 function setup() {
+    var width = windowWidth;
+    var height = windowHeight;
+    
     createCanvas(width,height);
     createRow();
 }
