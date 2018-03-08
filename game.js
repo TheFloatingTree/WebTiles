@@ -7,6 +7,8 @@ var a,s,d,f;
 var score = 0;
 var speed = 2;
 
+var width, height;
+
 function setup() {
     var width = windowWidth;
     var height = windowHeight;
